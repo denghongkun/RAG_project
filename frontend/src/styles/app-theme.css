@@ -1,0 +1,40 @@
+/* 全局主题：与 Element Plus 叠加 */
+:root {
+  --app-font: "Noto Sans SC", "SF Pro Display", system-ui, -apple-system, sans-serif;
+  --app-bg: #e8ecf4;
+  --app-bg-mesh: radial-gradient(1200px 600px at 10% -10%, rgba(99, 102, 241, 0.12), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(14, 165, 233, 0.1), transparent 50%),
+    linear-gradient(165deg, #eef1f8 0%, #e4e9f2 100%);
+  --app-surface: rgba(255, 255, 255, 0.82);
+  --app-surface-solid: #ffffff;
+  --app-border: rgba(15, 23, 42, 0.08);
+  --app-text: #0f172a;
+  --app-text-muted: #64748b;
+  --app-accent: #4f46e5;
+  --app-accent-soft: rgba(79, 70, 229, 0.12);
+  --app-sidebar-dark: linear-gradient(180deg, #1e1b4b 0%, #0f172a 48%, #0c1222 100%);
+  --app-sidebar-border: rgba(255, 255, 255, 0.06);
+  --app-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --app-shadow-md: 0 12px 40px -12px rgba(15, 23, 42, 0.15), 0 4px 16px rgba(15, 23, 42, 0.06);
+  --app-radius: 14px;
+  --app-radius-sm: 10px;
+  --el-color-primary: #4f46e5;
+  --el-color-primary-light-3: #7c73f0;
+  --el-color-primary-light-5: #a29dff;
+  --el-border-radius-base: 10px;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: var(--app-font);
+  -webkit-font-smoothing: antialiased;
+  color: var(--app-text);
+  background: var(--app-bg-mesh);
+  background-color: var(--app-bg);
+}
+
+#app {
+  height: 100%;
+}
